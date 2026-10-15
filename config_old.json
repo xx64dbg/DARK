@@ -1,0 +1,348 @@
+{
+  "AVOIDED": {},
+  "PREFERRED": {
+    "22": {
+      "resolution": 30,
+      "data": "8P9/APz/HwD//wfA//8B8P9/APz/HwD//wfAn/8B8Od/APz5HwB//gfAn/8B8Od/APz5HwB//gfAn/8B8Od/APz5HwB//gfAn/8B8Od/APD/fwD8/x8A//8HwP//AfD/fwD8/x8A//8HwP//AQAAAAA\u003d"
+    }
+  },
+  "SAFETY": {
+    "-1": [],
+    "22": []
+  },
+  "PLAYER_INFOS": {},
+  "PLAYER_TAGS": [],
+  "UNRESOLVED": [],
+  "CUSTOM_CONFIGS": {
+    "eu.darkbot.popcorn.def.AntiPush": {
+      "DRAWFIRE_PAUSE_TIME": -1,
+      "MAX_DEATHS": 7,
+      "DEATH_PAUSE_TIME": -1
+    },
+    "eu.darkbot.popcorn.def.UserAgentUpdater": {
+      "USER_AGENT": "BigpointClient/1.6.9",
+      "NEXT_UPDATE": 1792094085678
+    },
+    "eu.darkbot.popcorn.def.SampleModule": {
+      "BOOLEAN_VALUE": true,
+      "INTEGER_LIMIT": 1,
+      "PERCENTAGE_VALUE": 0.5,
+      "MOVE_SHIP": false,
+      "SHIP_MODE": {
+        "CONFIG": 1
+      },
+      "PERCENT_RANGE": {
+        "min": 0.5,
+        "max": 0.75
+      }
+    }
+  },
+  "PLUGIN_INFOS": {
+    "Default plugin_by_Popcorn": {
+      "DISABLED_FEATURES": [
+        "eu.darkbot.popcorn.def.SampleModule",
+        "eu.darkbot.popcorn.def.PalladiumModule"
+      ],
+      "ENABLED_FEATURES": [
+        "eu.darkbot.popcorn.def.AntiPush",
+        "eu.darkbot.popcorn.def.CaptchaPicker",
+        "eu.darkbot.popcorn.def.FlashPatcher",
+        "eu.darkbot.popcorn.def.UserAgentUpdater"
+      ]
+    }
+  },
+  "GENERAL": {
+    "CURRENT_MODULE": "eu.darkbot.shared.modules.LootCollectorModule",
+    "WORKING_MAP": 22,
+    "OFFENSIVE": {
+      "CONFIG": 1,
+      "FORMATION": "0"
+    },
+    "ROAM": {
+      "CONFIG": 2,
+      "FORMATION": "0"
+    },
+    "RUN": {
+      "CONFIG": 2,
+      "FORMATION": "0"
+    },
+    "SAFETY": {
+      "REPAIR_HP_RANGE": {
+        "min": 0.3,
+        "max": 1.0
+      },
+      "REPAIR_HP_NO_NPC": 0.8,
+      "REPAIR_TO_SHIELD": 0.9,
+      "REPAIR": {
+        "CONFIG": 1,
+        "FORMATION": "0"
+      },
+      "MAX_DEATHS": 30,
+      "REVIVE_LOCATION": 1,
+      "REVIVE": "PORTAL",
+      "WAIT_BEFORE_REVIVE": 5,
+      "WAIT_AFTER_REVIVE": 60,
+      "INSTANT_REPAIR": 0
+    },
+    "RUNNING": {
+      "RUN_FROM_ENEMIES": false,
+      "REMEMBER_ENEMIES_FOR": 300,
+      "RUN_FROM_ENEMIES_SIGHT": false,
+      "STOP_RUNNING_NO_SIGHT": false,
+      "MAX_SIGHT_DISTANCE": 4000,
+      "SHIP_ABILITY_MIN": 1500,
+      "RUN_FURTHEST_PORT": 1500
+    },
+    "ROAMING": {
+      "KEEP": false,
+      "SEQUENTIAL": false,
+      "ONLY_KILL_PREFERRED": true,
+      "ENEMY_CBS_INVISIBLE": false
+    }
+  },
+  "COLLECT": {
+    "STAY_AWAY_FROM_ENEMIES": false,
+    "AUTO_CLOACK": false,
+    "RADIUS": 400,
+    "IGNORE_CONTESTED_BOXES": true,
+    "BOX_INFOS": {
+      "MINI_PUMPKIN": {
+        "collect": true,
+        "waitTime": 1,
+        "priority": 1
+      },
+      "BONUS_BOX": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "PIRATE_BOOTY": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "ASTRAL_BOOTY_BOX": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "BATTLEPASS": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "PIRATE_BOOTY_RED": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "PIRATE_BOOTY_BLUE": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "ASTRAL_PRIME_BOOTY_BOX": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "CANDY_CARGO": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "FROM_SHIP_BLOCKED": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "PRISMATIUM": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      }
+    }
+  },
+  "LOOT": {
+    "SAB": {
+      "ENABLED": false,
+      "KEY": "2",
+      "PERCENT": 0.8,
+      "NPC_AMOUNT": 12000
+    },
+    "RSB": {
+      "ENABLED": false,
+      "KEY": "3",
+      "AMMO_REFRESH": 3500
+    },
+    "AMMO_KEY": "1",
+    "SHIP_ABILITY": "5",
+    "SHIP_ABILITY_MIN": 150000,
+    "MAX_CIRCLE_ITERATIONS": 4,
+    "RUN_CONFIG_IN_CIRCLE": true,
+    "GROUP_NPCS": true,
+    "NPC_INFOS": {},
+    "NPC_DISTANCE_IGNORE": 3000
+  },
+  "PET": {
+    "ENABLED": true,
+    "MODULE_ID": "LOOTER"
+  },
+  "GROUP": {
+    "ACCEPT_INVITES": false,
+    "OPEN_INVITES": false,
+    "BLOCK_INVITES": false,
+    "LEAVE_NO_WHITELISTED": false,
+    "KICK_NO_INVITED": false
+  },
+  "MISCELLANEOUS": {
+    "REFRESH_AFTER_REVIVE": false,
+    "REFRESH_TIME": 15,
+    "PAUSE_FOR": 0,
+    "RESET_REFRESH": true,
+    "SOLVE_BACKPAGE_CAPTCHA": false,
+    "UPDATE_STATS_WHILE_PAUSED": true,
+    "DRONE_REPAIR_PERCENTAGE": 0.9,
+    "HONOR_LOST_EXACT": true,
+    "LOG_CHAT": false,
+    "LOG_DEATHS": false,
+    "AVOID_MINES": true,
+    "AVOID_CBS": true,
+    "AVOID_RADIATION": true,
+    "USERNAME_ON_TITLE": false,
+    "AUTO_REFINE": false
+  },
+  "BOT_SETTINGS": {
+    "BOT_GUI": {
+      "LOCALE": "tr",
+      "CONFIRM_EXIT": true,
+      "SAVE_GUI_POS": false,
+      "BUTTON_SIZE": 4,
+      "ALWAYS_ON_TOP": true,
+      "MAIN_GUI_WINDOW": {
+        "x": 639,
+        "y": 210,
+        "width": 640,
+        "height": 480
+      },
+      "CONFIG_GUI_WINDOW": {
+        "x": 1012,
+        "y": 283,
+        "width": 640,
+        "height": 480
+      },
+      "CONFIG_LEVEL": "ADVANCED"
+    },
+    "API_CONFIG": {
+      "BROWSER_API": "KEKKA_PLAYER",
+      "FULLY_HIDE_API": true,
+      "FORCE_GAME_LANGUAGE": false,
+      "ENFORCE_HW_ACCEL": false,
+      "USE_3D": false,
+      "USE_PROXY": false,
+      "CLEAR_CACHE_ON_STUCK": true,
+      "width": 1280,
+      "height": 800,
+      "attachToBot": false,
+      "gameQuality": "LOW",
+      "BLOCK_PATTERNS": {}
+    },
+    "MAP_DISPLAY": {
+      "TOGGLE": [
+        "HERO_NAME",
+        "HP_SHIELD_NUM",
+        "ZONES",
+        "STATS_AREA",
+        "GROUP_AREA",
+        "GROUP_NAMES",
+        "BOOSTER_AREA",
+        "SHOW_PET"
+      ],
+      "TRAIL_LENGTH": 15,
+      "ROUND_ENTITIES": false,
+      "MAP_ZOOM": 1.0,
+      "REFRESH_DELAY": 1,
+      "MAP_START_STOP": false,
+      "cs": {
+        "BACKGROUND": "#FF263238",
+        "RADIATION": "#FF372638",
+        "TEXT": "#FFF2F2F2",
+        "TEXT_DARK": "#FFBBBBBB",
+        "GOING": "#FF8F9BFF",
+        "PORTALS": "#FFAEAEAE",
+        "HERO": "#FF22CC22",
+        "TRAIL_BASE": "#FFE0E0E0",
+        "FUEL": "#FFF2F2F2",
+        "BOXES": "#FFBBB830",
+        "MINES": "#FFFF8000",
+        "ALLIES": "#FF29B6F6",
+        "ENEMIES": "#FFD50000",
+        "NPCS": "#FFAA4040",
+        "GROUP_MEMBER": "#FFFFD700",
+        "LOW_RELAYS": "#FF00D54B",
+        "SPACE_BALLS": "#FF00D595",
+        "OTHER_ENTITIES": "#FF1647A1",
+        "TARGET": "#FF762C2C",
+        "PET": "#FF004C8C",
+        "PET_IN": "#FFC56000",
+        "HEALTH": "#FF388E3C",
+        "NANO_HULL": "#FFD0D024",
+        "SHIELD": "#FF0288D1",
+        "METEROID": "#FFAAAAAA",
+        "PING": "#2000FF00",
+        "PING_BORDER": "#8000FF00",
+        "BARRIER": "#20FFFFFF",
+        "BARRIER_BORDER": "#80FFFFFF",
+        "NO_CLOACK": "#2018A0FF",
+        "PREFER": "#2000FF80",
+        "AVOID": "#20FF0000",
+        "SAFETY": "#601080FF",
+        "BASES": "#FF00FF80",
+        "BASE_SPOTS": "#2000FF80",
+        "UNKNOWN": "#FF7C05D1",
+        "TEXTS_BACKGROUND": "#80263238",
+        "ACTION_BUTTON": "#A0FFFFFF",
+        "DARKEN_BACK": "#60000000",
+        "ZONE_EDITOR": {
+          "LINES": "#80808080",
+          "HOVERING": "#FF0096C8",
+          "SELECTING": "#FF0080FF",
+          "ZONE": "#4000FF80"
+        },
+        "SAFETY_EDITOR": {
+          "ZONE_HIGHLIGHT": "#6000FF80",
+          "ZONE_SELECTED": "#8000FF80",
+          "ZONE_SOLID": "#FF00FF80"
+        },
+        "FONTS": {
+          "BIG": "32:Consolas:0",
+          "MID": "18:SansSerif:0",
+          "SMALL": "13:Consolas:0",
+          "TINY": "9:SansSerif:0"
+        }
+      }
+    },
+    "CUSTOM_BACKGROUND": {
+      "ENABLED": false,
+      "USE_GAME_BACKGROUND": false,
+      "OPACITY": 0.30000001192092896,
+      "IMAGE": {}
+    },
+    "PERFORMANCE": {
+      "ALWAYS_ENABLED": true,
+      "DISABLE_RENDER": false,
+      "MAX_FPS": 0,
+      "MIN_TICK": 15
+    },
+    "OTHER": {
+      "SHOW_INSTRUCTIONS": true,
+      "DISABLE_MASTER_PASSWORD": true,
+      "ALWAYS_SHOW_CAPTCHA": false,
+      "ZONE_RESOLUTION": 30,
+      "DEV_STUFF": false
+    }
+  },
+  "EXTRA": {
+    "ACTION_INFOS": {}
+  }
+}
